@@ -118,6 +118,7 @@
   
   .image img {
     width: 400px;
+    height: 500px;
     animation: float 3s ease-in-out infinite;
   }
   
