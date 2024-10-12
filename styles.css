@@ -91,17 +91,44 @@ nav ul li a {
 }
 
 footer {
-  background-color: #333;
+  background-color: #1a1a2e;
   color: white;
-  padding: 20px;
   text-align: center;
+  padding: 30px 0;
 }
-footer a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
+
+.footer-content h2 {
   font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-footer a:hover {
-  color: #ddd;
+
+.footer-content p {
+  color: #c1c1c1;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* Change this to fit the hover effect you prefer */
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #777;
+}
+
+footer .footer-bottom p {
+  margin: 0;
 }
